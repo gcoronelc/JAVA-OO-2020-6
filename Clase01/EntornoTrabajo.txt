@@ -1,0 +1,23 @@
+﻿ENTORNO DE TRABAJO
+--------------------------------------------
+- Java JDK: de Oracle (Ver 8)
+- NetBenas: Oracle (8.2) y Apache (12.x)
+
+
+ANTES DE EMPEZAR A TRABAJAR
+----------------------------------------------
+Se debe definir la carpeta de trabajo.
+No debe estar en el escritorio.
+
+Ejm: C:\CURSOS\JAVA-CORONEL\CLASE01
+
+
+PARA CREAR UN PROYECTO
+----------------------------------------------
+1.- Nombre proyecto: AprendiendoJava
+2.- Ubicación: C:\CURSOS\JAVA-CORONEL\CLASE01
+3.- Paquete base: 
+
+
+
+
