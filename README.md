@@ -17,7 +17,7 @@
 
 - Docente: Eric Gustavo Coronel Castillo
 - Blog: www.desarrollasoftware.com
-- Correo del curso: egcc.uni@gmail.com
+- Correo para el curso: egcc.uni@gmail.com
 - Canal Youtube: https://www.youtube.com/DesarrollaSoftware
 - UDEMY: https://github.com/gcoronelc/UDEMY
 - Facebook 1: https://www.facebook.com/groups/universidadjava/
