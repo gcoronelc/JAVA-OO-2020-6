@@ -16,7 +16,7 @@ PARA CREAR UN PROYECTO
 ----------------------------------------------
 1.- Nombre proyecto: AprendiendoJava
 2.- Ubicación: C:\CURSOS\JAVA-CORONEL\CLASE01
-3.- Paquete base: 
+3.- Paquete base: pe.edu.uni.app
 
 
 
