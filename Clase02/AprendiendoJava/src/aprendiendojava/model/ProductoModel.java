@@ -14,6 +14,7 @@ public class ProductoModel {
 	private int stock;
 	private boolean activo;
 
+	// Constructor por defecto
 	public ProductoModel() {
 		this.nombre = "Coca Cola";
 		this.precio = 2.40;
@@ -21,6 +22,22 @@ public class ProductoModel {
 		this.activo = true;
 		System.out.println("Objeto creado.");
 	}
+
+	public ProductoModel(String nombre, double precio, int stock) {
+		this.nombre = nombre;
+		this.precio = precio;
+		this.stock = stock;
+		this.activo = false;
+	}
+	
+	public ProductoModel(String nombre, double precio, int stock, boolean activo) {
+		this.nombre = nombre;
+		this.precio = precio;
+		this.stock = stock;
+		this.activo = activo;
+	}
+	
+	
 	
 	public String getNombre() {
 		return nombre;

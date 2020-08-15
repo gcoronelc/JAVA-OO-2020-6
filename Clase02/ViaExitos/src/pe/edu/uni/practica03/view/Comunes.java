@@ -4,7 +4,17 @@ import java.text.DecimalFormat;
 import javax.swing.JTextField;
 
 public class Comunes {
-
+	
+	private static int contador;
+	
+	static {
+		contador = 0;
+	}
+	
+	public static int getSiguiente(){
+		return (++contador);
+	}
+	
 	public static void validarCajaTexto(JTextField caja, String mensaje) {
 		if (caja.getText().isEmpty()) {
 			caja.requestFocus();
