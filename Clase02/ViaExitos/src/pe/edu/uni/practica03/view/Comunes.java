@@ -1,5 +1,6 @@
 package pe.edu.uni.practica03.view;
 
+import java.text.DecimalFormat;
 import javax.swing.JTextField;
 
 public class Comunes {
@@ -10,7 +11,7 @@ public class Comunes {
 			throw new RuntimeException(mensaje);
 		}
 	}
-	
+
 	public static void validarEntero(JTextField caja, String mensaje) {
 		try {
 			Integer.parseInt(caja.getText());
@@ -20,7 +21,7 @@ public class Comunes {
 			throw new RuntimeException(mensaje);
 		}
 	}
-	
+
 	public static void validarDecimal(JTextField caja, String mensaje) {
 		try {
 			Double.parseDouble(caja.getText());
@@ -46,6 +47,12 @@ public class Comunes {
 		} catch (NumberFormatException nfe) {
 			return false;
 		}
+	}
+
+	public static String formato(double numero) {
+		String pattern = "###,##0.00";
+		DecimalFormat decimalFormat = new DecimalFormat(pattern);
+		return decimalFormat.format(numero);
 	}
 
 }

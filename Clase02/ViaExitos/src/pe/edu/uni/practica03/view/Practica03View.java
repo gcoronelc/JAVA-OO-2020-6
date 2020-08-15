@@ -5,7 +5,6 @@
  */
 package pe.edu.uni.practica03.view;
 
-import com.sun.glass.events.KeyEvent;
 import javax.swing.JOptionPane;
 import pe.edu.uni.practica03.dto.PagoDto;
 import pe.edu.uni.practica03.service.Practica03Service;
@@ -342,9 +341,9 @@ public class Practica03View extends javax.swing.JFrame {
 		Practica03Service service = new Practica03Service();
 		dto = service.procSalario(dto);
 		// Reporte
-		txtSalario.setText("S/. " + dto.getIngreso());
-		txtRenta.setText("S/. " + dto.getRenta());
-		txtTotal.setText("S/. " + dto.getNeto());
+		txtSalario.setText("S/. " + Comunes.formato(dto.getIngreso()));
+		txtRenta.setText("S/. " + Comunes.formato(dto.getRenta()));
+		txtTotal.setText("S/. " + Comunes.formato(dto.getNeto()));
 
 		btnNuevo.setEnabled(true);
 		btnProcesar.setEnabled(false);
