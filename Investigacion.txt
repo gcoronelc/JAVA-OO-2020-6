@@ -1,21 +1,20 @@
-1.-  Patrones Factory (Son 3 patrones): 
+1.-  Patrones Factory (Son 3 patrones): Flores, Minaya y Candela
 2.-  Principios SOLID:
 3.-  Expresiones Lambda y Strem en Java 8: 
 4.-  Pruebas Unitarias: 
-5.-  Manejo de Archivos Log: 
+5.-  Manejo de Archivos Log: Melendes y Salazar
 6.-  Manejo de Datos Genericos (Generic):
 7.-  Patrón Inyección de Dependencias:
-8.-  Manejo de documentos XML: 
-9.-  Manejo de Datos en Formato JSON: 
+8.-  Manejo de documentos XML: Altamirano
+9.-  Manejo de Datos en Formato JSON: Montes / Wong
 10.- Expresiones regulares: 
-11.- Patrón MVC: 
-12.- Patrón facade: 
-13.- Asociación, Agregación y Composición: 
+11.- Patrón facade: 
+12.- Asociación, Agregación y Composición: 
 
 
 
 PROYECTO ALTERNATIVO: 
---------------------------------------
+----------------------------------------------------------------
 Desarrollar un programa que
 permita a un profesional 
 calcular su impuesto a la renta 2019.
