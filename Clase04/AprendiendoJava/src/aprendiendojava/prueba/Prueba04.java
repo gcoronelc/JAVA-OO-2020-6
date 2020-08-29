@@ -1,4 +1,4 @@
-package aprendiendojava.service.spec;
+package aprendiendojava.prueba;
 
 /**
  * @author Eric Gustavo Coronel Castillo
@@ -7,12 +7,15 @@ package aprendiendojava.service.spec;
  * @youtube www.youtube.com/c/DesarrollaSoftware
  * @facebook www.facebook.com/groups/desarrollasoftware/
  */
-public interface Mantenimiento2Spec<T> {
-	
-	void insertar(T model);
-	
-	void modificar(T model);
-	
-	void eliminar(int id);
+public class Prueba04 {
 
+	public static void main(String[] args) {
+		byte n1 = 100;
+		int n2 = n1; // UpCasting
+		
+		System.out.println("n1: " + n1);
+		System.out.println("n2: " + n2);
+	}
+	
+	
 }

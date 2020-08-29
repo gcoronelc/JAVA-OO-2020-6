@@ -1,4 +1,4 @@
-package aprendiendojava.service.spec;
+package aprendiendojava.util;
 
 /**
  * @author Eric Gustavo Coronel Castillo
@@ -7,12 +7,14 @@ package aprendiendojava.service.spec;
  * @youtube www.youtube.com/c/DesarrollaSoftware
  * @facebook www.facebook.com/groups/desarrollasoftware/
  */
-public interface Mantenimiento2Spec<T> {
-	
-	void insertar(T model);
-	
-	void modificar(T model);
-	
-	void eliminar(int id);
+public class NotaFueraRango extends Exception{
 
+	public NotaFueraRango() {
+		super("Nota fuera de rango.");
+	}
+
+	public NotaFueraRango(String mensaje) {
+		super(mensaje);
+	}
+	
 }

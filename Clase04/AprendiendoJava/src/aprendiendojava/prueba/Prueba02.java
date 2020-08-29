@@ -28,6 +28,10 @@ public class Prueba02 {
 		TierraService tierra = new TierraService();
 		mostrarArea( tierra );
 		
+		System.out.println("Autor: " + CalculoSpec.getAutor());
+		System.out.println("Autor: " + tierra.getAutor2());
+		System.out.println("IGV: " + CalculoSpec.IGV);
+		
 	}
 
 	private static void mostrarArea(CalculoSpec figura) {

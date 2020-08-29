@@ -1,7 +1,7 @@
 package aprendiendojava.service;
 
-import aprendiendojava.service.spec.CalculoSpec;
-import aprendiendojava.service.spec.MantenimientoSpec;
+import aprendiendojava.model.ClienteModel;
+import aprendiendojava.service.spec.Mantenimiento2Spec;
 
 /**
  * @author Eric Gustavo Coronel Castillo
@@ -10,25 +10,20 @@ import aprendiendojava.service.spec.MantenimientoSpec;
  * @youtube www.youtube.com/c/DesarrollaSoftware
  * @facebook www.facebook.com/groups/desarrollasoftware/
  */
-public class TierraService implements CalculoSpec, MantenimientoSpec{
+public class ClienteService implements Mantenimiento2Spec<ClienteModel>{
 
 	@Override
-	public double calcArea() {
-		return 4566789;
+	public void insertar(ClienteModel model) {
+		System.out.println("Se inserto el cliente: " + model.getNombre() );
 	}
 
 	@Override
-	public void insertar() {
-		System.out.println("Se inserto tierra.");
-	}
-
-	@Override
-	public void modificar() {
+	public void modificar(ClienteModel model) {
 		throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
 	}
 
 	@Override
-	public void eliminar() {
+	public void eliminar(int id) {
 		throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
 	}
 

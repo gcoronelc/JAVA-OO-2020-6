@@ -1,8 +1,6 @@
 package aprendiendojava.prueba;
 
-import aprendiendojava.service.TierraService;
-import aprendiendojava.service.sqlserver.ProductoService;
-import aprendiendojava.service.spec.MantenimientoSpec;
+import aprendiendojava.service.spec.CalculoSpec;
 
 /**
  * @author Eric Gustavo Coronel Castillo
@@ -11,13 +9,19 @@ import aprendiendojava.service.spec.MantenimientoSpec;
  * @youtube www.youtube.com/c/DesarrollaSoftware
  * @facebook www.facebook.com/groups/desarrollasoftware/
  */
-public class Prueba01 {
-
+public class Prueba03 {
+	
 	public static void main(String[] args) {
-		//MantenimientoSpec mant = new ProductoService();
-		MantenimientoSpec mant = new TierraService();
-		mant.insertar();
 		
+		// Clase anónima
+		CalculoSpec obj = new CalculoSpec() {
+			@Override
+			public double calcArea() {
+				return 1000;
+			}
+		};
 		
+		System.out.println(obj.calcArea());
 	}
+
 }

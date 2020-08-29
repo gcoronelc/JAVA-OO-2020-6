@@ -1,4 +1,4 @@
-package aprendiendojava.service.spec;
+package aprendiendojava.prueba;
 
 /**
  * @author Eric Gustavo Coronel Castillo
@@ -7,12 +7,15 @@ package aprendiendojava.service.spec;
  * @youtube www.youtube.com/c/DesarrollaSoftware
  * @facebook www.facebook.com/groups/desarrollasoftware/
  */
-public interface Mantenimiento2Spec<T> {
-	
-	void insertar(T model);
-	
-	void modificar(T model);
-	
-	void eliminar(int id);
+public class Prueba16 {
 
+	public static void main(String[] args) {
+		int n1 = 10;
+		int n2 = 0;
+		
+		int divi = n1 / n2;
+		
+		System.out.println("División: " + divi);
+	}
+	
 }
